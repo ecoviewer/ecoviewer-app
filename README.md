@@ -1,6 +1,6 @@
 # EcoViewer — GEE App Scripts
 
-This repo contains the Google Earth Engine (GEE) JavaScript code that powers the **EcoViewer** app — the interactive map interface for exploring environmental and GBIF biodiversity data at any point on Earth.
+This repo contains the Google Earth Engine (GEE) JavaScript code that powers the **EcoViewer** app 
 
 
 ---
