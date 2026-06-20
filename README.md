@@ -2,7 +2,6 @@
 
 This repo contains the Google Earth Engine (GEE) JavaScript code that powers the **EcoViewer** app — the interactive map interface for exploring environmental and GBIF biodiversity data at any point on Earth.
 
-> Looking for the website code or the GBIF data processing pipeline? Those live in separate repos.
 
 ---
 
@@ -37,20 +36,17 @@ Most changes (colours, dataset paths, thresholds) only require editing `ecoviewe
 
 ## Editing / running this code
 
-All real development happens in the GEE Code Editor, not locally:
-
 1. Go to [code.earthengine.google.com](https://code.earthengine.google.com)
 2. Open the `ecoviewer` repository in the Scripts panel
 3. Open `ecoviewer_main.js` and click **Run**
 4. To publish/update the live app: **Apps → Manage Apps**
 
-This GitHub repo is kept as a manual backup — make and test changes in GEE first, then copy the updated files here.
 
 ---
 
 ## Tabs in the app
 
-- **Site Summary** — country, ecoregion, elevation, slope
+- **Overview** — country, ecoregion, elevation, slope
 - **Climate** — temperature, precipitation, aridity, dry season, growing season
 - **Vegetation** — land cover (ESA WorldCover, SBTN), canopy height
 - **Waterbodies & Wetlands** — wetlands, surface water, rivers, coastal habitat (mangroves, tidal, reef)
