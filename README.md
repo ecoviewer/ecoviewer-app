@@ -1,8 +1,11 @@
 # EcoViewer — GEE App Scripts
 
+🔗 **[👉 View the Live Interactive App Here](https://ecoviewer.org/app/)**
+
 This repo contains the Google Earth Engine (GEE) JavaScript code that powers the **EcoViewer** app 
 
-
+> ⚠️ **Important Note:**
+> The GEE code in this repository relies on private, pre-computed spatial assets and restricted lab environments to function optimally. While this code is provided under the MIT license for a full technical review of our methodology, spatial joins, and logic, it cannot be executed directly in a third-party GEE Code Editor without throwing an "Asset Not Found" error. To interact with the tool, run the species inspector, and generate regional CSVs, please use the live application linked above.
 ---
 
 ## What's in here
@@ -32,14 +35,6 @@ var fun    = require('users/rebeccasaunders/ecoviewer:ecoviewer_functions');
 
 Most changes (colours, dataset paths, thresholds) only require editing `ecoviewer_config.js`.
 
----
-
-## Editing / running this code
-
-1. Go to [code.earthengine.google.com](https://code.earthengine.google.com)
-2. Open the `ecoviewer` repository in the Scripts panel
-3. Open `ecoviewer_main.js` and click **Run**
-4. To publish/update the live app: **Apps → Manage Apps**
 
 
 ---
